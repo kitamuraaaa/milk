@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media(min-width:576px){
+        .container-tart {width:900px;}
+        }
+        body{
+            background:url(images/bg-cover_01.jpg) fixed;
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar container-sm container-tart bg-transparent fixed-top">
+            <div class="container-fluid px-2.5">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <img src="images/logo (1).png" class="img-fluid py-3" alt="">
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">公式サイト</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section><!-- hero -->
+          <div class="container-sm container-tart p-0">
+              <img src="images/main_img_01-80.jpg" class="img-fluid" alt="">
+          </div>
+        </section><!-- /hero -->
+        <section><!-- icon -->
+          <div class="container-sm container-tart py-3 bg-danger text-white">
+              <div class="row">
+                <div class="col p-3">
+                  <a href="#icatch">
+                  <img src="images/btn_about.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+                <div class="col p-3">
+                  <a href="#howto">
+                  <img src="images/btn_howto.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+                <div class="col p-3">
+                  <a href="#prize">
+                  <img src="images/btn_item.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div>
+          </div>
+        </section> <!-- /icon -->
+        <section id="icatch"><!-- icatch -->
+          <div class="container-sm container-tart p-5 bg-white text-body text-center">
+            <img src="images/main_title.png" class="img-fluid" alt="">
+            <br>
+            <img src="images/pic_cam_01.png" class="img-fluid" alt="">
+            <h2 class="py-5">応募締切<br>2024年6月30日23時59分まで</h2>
+          </div>
+        </section><!-- /icatch -->
+        <section id="howto"><!-- howto -->
+          <div class="container-sm container-tart p-5 bg-warning text-dark text-center">
+            <h2 class="py-3">応募方法</h2>
+            <div class="row">
+              <div class="col col-12 col-sm-4 pb-5">
+                <div class="card rounded-4">
+                    <img src="images/pic_cam_02.png" class="card-img-top img-fluid pt-4 px-4" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title"><img src="images/icon_step1.png" class="img-fluid" style="width:40%;" alt="..."></h6>
+                      <p class="card-text fw-bold px-2">Twitterで日本タルト協会のアカウント「＠------」をフォロー。（この期間中はフォローを外さないでください）</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info fw-bold px-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Twitterをフォロー
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Twitterをフォロー</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col col-12 col-sm-4 pb-5">
+                <div class="card rounded-4">
+                    <img src="images/pic_cam_03.png" class="card-img-top img-fluid pt-4 px-4" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title"><img src="images/icon_step2.png" class="img-fluid" style="width:40%;" alt="..."></h6>
+                      <p class="card-text fw-bold px-2">ハッシュタグ「#タルトの日」をつけて、お好きなタルトをツイートする。（個人情報は登校しないようにご注意ください）</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info fw-bold px-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          ツイートする
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Twitterをフォロー</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col col-12 col-sm-4 pb-5">
+                <div class="card rounded-4">
+                    <img src="images/pic_cam_04.png" class="card-img-top img-fluid pt-4 px-4" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title"><img src="images/icon_step3.png" class="img-fluid" style="width:40%;" alt="..."></h6>
+                      <p class="card-text fw-bold px-2">抽選で100名様に、タルト詰め合わせが当たります。当選者には後日TwitterのDMにてお知らせします。（フォローが外れている方は抽選の対象外です）</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info fw-bold px-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Twitterをフォロー
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Twitterをフォロー</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- /howto -->
+        <section id="prize"><!-- prize -->
+          <div class="container-sm container-tart bg-white text-body text-center p-0">
+            <h2 class="pt-5">賞品</h2>
+            <p class="fw-bold fs-4 p-3">日本タルト協会協賛企業から、おすすめタルト15種詰め合わせをお送りします。<br>（冷凍便でのお届けです）<br>※写真はイメージです</p>
+            <img src="images/item_img_01-80.jpg" class="img-fluid" alt="">
+          </div>
+        </section><!-- /prize -->
+        <section><!-- summary -->
+          <div class="container-sm container-tart bg-body-secondary text-center p-5 text-break">
+            <h2 class="py-3">応募規約</h2>
+            <p class="fw-bold p-0">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
+          </div>
+        </section><!-- /summary -->
+        <section><!-- about -->
+          <div class="container-sm container-tart bg-white text-center py-2">
+            <h2 class="py-5">このページについて</h2>
+            <p class="fw-bold fs-4 p-3">Bootstrapを用いて作成したLPデモです<br>エディタ：Visual Stadio Code<br>Photoshop、Illustratorを使用<br>画像は写真AC、イラストはイラストACから引用<br>絵文字はfont awesomeを使用</p>
+          </div>
+        </section><!-- /about -->
+    </main>
+    <footer>
+      <div class="container-sm container-tart bg-transparent text-center py-3">
+        <a href="#">
+        <img src="images/logo (1).png" class="img-fluid py-3" alt="">
+        </a>
+        <div class="container-sm container-tart py-5 bg-transparent">
+          <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+              <a href="https://twitter.com">
+                <i class="fa-brands fa-twitter fa-3x link-danger"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://www.instagram.com">
+                <i class="fa-brands fa-instagram fa-3x link-danger"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://www.facebook.com">
+                <i class="fa-brands fa-facebook fa-3x link-danger"></i>
+              </a>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+      </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
